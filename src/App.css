@@ -617,17 +617,7 @@ body {
   border: 1px solid #e2e8f0;
 }
 
-.family-todos{
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.1);
-  max-width: 364px;
-  margin: 0 auto;
-}
-
+.family-todos,
 .personal-todos {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
@@ -669,14 +659,8 @@ body {
     align-items: center;
   }
 
-  .personal-todos {
+  .personal-todos, .family-todos {
     margin: 50px .5rem 0 .5rem;
-    border-radius: 20px;
-  }
-
-  /* Make family todos full width on mobile like personal todos */
-  .family-todos {
-    margin: 0;
     border-radius: 20px;
   }
 
